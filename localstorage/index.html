@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/app.css">
+	<title>LocalStorage</title>
+</head>
+<body>
+	
+	<div class="container">
+		<div class="split">
+			<h2>Cosas por hacer</h2>
+
+			<form id="todo_form">
+				<label>Actividad: </label>
+				<input type="text" placeholder="Leer el libro..." autocomplete="off" id="todo">
+				<input type="submit" value="Registrar Actividad" id="date">
+			</form>
+		</div>
+		<div class="split">
+			<h2>Cosas por hacer</h2>
+			<ol id="todo_list">
+			</ol>
+		</div>
+	</div>
+	<script src="js/storage.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
